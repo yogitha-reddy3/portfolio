@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [react()],
   base: '/portfolio/',
   build: {
-    outDir: 'docs',
+    outDir: 'build',
     sourcemap: true,
     rollupOptions: {
       input: {
