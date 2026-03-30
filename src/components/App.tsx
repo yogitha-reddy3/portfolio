@@ -12,14 +12,6 @@ interface Project {
   link?: string | null;
   gradient: string;
 }
-
-interface FavoriteArticle {
-  title: string;
-  description: string;
-  url: string;
-  tags: string[];
-}
-
 const MOBILE_BREAKPOINT = 768;
 
 function App() {
